@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Agência Nômade</title>
+<meta name="description" content="Política de privacidade da ferramenta interna de relatórios da Agência Nômade (ccos-nomade).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Bricolage+Grotesque:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#f4f4f0; --ink:#1a1a1a; --mute:#5a5a56; --acc:#1c5e6a; --card:#ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg:#0f0f0e; --ink:#f2f2ee; --mute:#a8a8a2; --acc:#7fc0cc; --card:#181816; }
+  }
+  :root[data-theme="dark"] { --bg:#0f0f0e; --ink:#f2f2ee; --mute:#a8a8a2; --acc:#7fc0cc; --card:#181816; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Archivo, system-ui, sans-serif; line-height:1.6; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px 80px; }
+  .card { background:var(--card); border-radius:10px; padding:32px 28px; box-shadow:0 1px 3px rgba(0,0,0,.06); }
+  h1 { font-family:"Bricolage Grotesque", Archivo, sans-serif; font-size:2rem; line-height:1.15; margin:0 0 4px; }
+  h2 { font-family:"Bricolage Grotesque", Archivo, sans-serif; font-size:1.15rem; margin:32px 0 8px; color:var(--acc); }
+  .meta { color:var(--mute); font-size:.9rem; margin-bottom:24px; }
+  p, li { margin:0 0 12px; }
+  ul { padding-left:20px; }
+  a { color:var(--acc); }
+  footer { color:var(--mute); font-size:.85rem; margin-top:32px; text-align:center; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>Política de Privacidade</h1>
+    <p class="meta">Agência Nômade · ferramenta interna de relatórios (ccos-nomade) · Última atualização: 20 de setembro de 2026</p>
+
+    <h2>1. Quem somos</h2>
+    <p>A <strong>Agência Nômade</strong> ("Nômade", "nós"), com site em <a href="https://nomade.nu">nomade.nu</a>, é uma agência de comunicação que presta serviços de gestão de mídia paga e análise de desempenho para seus clientes. Esta política descreve como tratamos dados ao usar a ferramenta interna <strong>ccos-nomade</strong>, que acessa a API do Google Ads para gerar relatórios de desempenho das campanhas dos nossos clientes.</p>
+
+    <h2>2. O que a ferramenta faz</h2>
+    <p>A ccos-nomade é uma ferramenta de <strong>uso interno da equipe da Nômade</strong>. Ela lê, por meio da API do Google Ads, dados de desempenho das contas de anúncios dos clientes que contrataram a Nômade (campanhas, grupos de anúncios, anúncios, investimento, cliques, conversões e métricas relacionadas) e produz relatórios para esses mesmos clientes.</p>
+    <p>A ferramenta <strong>não cria, não altera e não exclui</strong> campanhas, anúncios, orçamentos ou públicos. O acesso é somente de leitura.</p>
+
+    <h2>3. Quais dados tratamos</h2>
+    <ul>
+      <li><strong>Dados de desempenho de anúncios</strong> das contas de clientes da Nômade, obtidos da API do Google Ads com a autorização do titular da conta.</li>
+      <li><strong>Dados da conta Google do operador da Nômade</strong> usada na autenticação (endereço de e-mail e identificador da conta), estritamente para autorizar o acesso à API.</li>
+    </ul>
+    <p>Não coletamos dados pessoais de consumidores finais por meio desta ferramenta. Métricas agregadas de anúncios não identificam pessoas.</p>
+
+    <h2>4. Como usamos os dados</h2>
+    <p>Os dados são usados exclusivamente para gerar relatórios de desempenho e análises para o cliente dono da conta de anúncios, e para apoiar recomendações de otimização apresentadas a esse cliente.</p>
+    <p>Não usamos os dados para publicidade própria, não os vendemos, não os cedemos a terceiros e não os usamos para treinar modelos de inteligência artificial de uso geral.</p>
+
+    <h2>5. Onde os dados ficam e por quanto tempo</h2>
+    <p>Os dados obtidos são armazenados <strong>em equipamento da Nômade, em disco local</strong>, em pastas separadas por cliente. Cada cliente tem acesso apenas aos próprios dados; a Nômade acessa somente as contas para as quais foi contratada e autorizada. Os dados são mantidos pelo tempo necessário à prestação do serviço e às obrigações contratuais com o cliente, e eliminados ao fim da relação, salvo obrigação legal de guarda.</p>
+
+    <h2>6. Compartilhamento</h2>
+    <p>Compartilhamos dados apenas com o <strong>próprio cliente titular da conta de anúncios</strong>, na forma de relatórios. Não há compartilhamento com outros clientes nem com terceiros, exceto quando exigido por lei.</p>
+
+    <h2>7. Uso da API do Google</h2>
+    <p>O uso de informações recebidas das APIs do Google segue a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, inclusive os requisitos de <strong>Uso Limitado</strong>. A autorização concedida pode ser revogada a qualquer momento pelo titular da conta Google em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+    <h2>8. Segurança</h2>
+    <p>Adotamos medidas técnicas e organizacionais para proteger os dados: acesso restrito à equipe da Nômade, credenciais guardadas fora de repositórios de código, controles que limitam a leitura às contas de clientes autorizadas, e verificação em duas etapas nas contas que sustentam a ferramenta.</p>
+
+    <h2>9. Seus direitos (LGPD)</h2>
+    <p>Nos termos da Lei nº 13.709/2018 (LGPD), titulares de dados podem solicitar confirmação de tratamento, acesso, correção, anonimização, eliminação e informações sobre compartilhamento. Pedidos podem ser enviados ao contato abaixo.</p>
+
+    <h2>10. Contato</h2>
+    <p>Agência Nômade — <a href="https://nomade.nu">nomade.nu</a><br>E-mail: <strong>contato@nomade.nu</strong></p>
+
+    <h2>11. Alterações</h2>
+    <p>Esta política pode ser atualizada. A versão vigente estará sempre publicada nesta página, com a data da última atualização.</p>
+  </div>
+  <footer>© Agência Nômade</footer>
+</main>
+</body>
+</html>
