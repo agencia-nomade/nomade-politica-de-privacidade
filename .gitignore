@@ -1,2 +1,12 @@
 politica-de-privacidade.md
 email-aprovacao-politica.md
+
+# credenciais (nunca versionar) - acrescentado por /seguranca-verificar em 2026-09-20
+.env
+.env.*
+.streamlit/secrets.toml
+credentials.json
+client_secret*.json
+token.json
+service-account*.json
+*.pem
