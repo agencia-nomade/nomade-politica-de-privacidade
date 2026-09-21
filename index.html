@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Política de Privacidade — Agência Nômade</title>
-<meta name="description" content="Política de privacidade da ferramenta interna de relatórios da Agência Nômade (ccos-nomade).">
+<meta name="description" content="Política de privacidade das ferramentas de análise de mídia da Agência Nômade (ccos-nomade e Aplicação Eficiência MD).">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&family=Bricolage+Grotesque:wght@600&display=swap" rel="stylesheet">
 <style>
@@ -33,54 +33,75 @@
     <p class="meta">Agência Nômade · ferramentas de análise de mídia (ccos-nomade e Aplicação Eficiência MD) · Última atualização: 20 de setembro de 2026</p>
     <p class="meta"><strong>Versão preliminar</strong> — texto em revisão pela Diretoria da Nômade. A versão definitiva substituirá esta página.</p>
 
-    <h2>1. Quem somos</h2>
-    <p>A <strong>Agência Nômade</strong> ("Nômade", "nós"), com site em <a href="https://nomade.nu">nomade.nu</a>, é uma agência de comunicação que presta serviços de gestão de mídia paga e análise de desempenho para seus clientes. Esta política descreve como tratamos dados ao usar a ferramenta interna <strong>ccos-nomade</strong>, que acessa a API do Google Ads para gerar relatórios de desempenho das campanhas dos nossos clientes.</p>
+    <h2>1. Quem somos e qual é o nosso papel</h2>
+    <p>A <strong>Agência Nômade</strong> ("Nômade", "nós"), com site em <a href="https://nomade.nu">nomade.nu</a>, é uma agência de comunicação que presta serviços de gestão de mídia paga e análise de desempenho para seus clientes. Esta política descreve como tratamos dados nas nossas ferramentas de análise de mídia: a ferramenta interna <strong>ccos-nomade</strong>, que lê a API do Google Ads para gerar relatórios, e a <strong>Aplicação Eficiência MD (Nômade Intelligence)</strong>, painel que os clientes contratantes acessam (seção 12).</p>
+    <p>Nos termos da Lei nº 13.709/2018 (LGPD), a Nômade atua em dois papéis:</p>
+    <ul>
+      <li><strong>Operadora</strong>, quando trata dados das contas de anúncios e dos sistemas dos clientes que a contrataram: o cliente é o controlador desses dados e define a finalidade; a Nômade os trata em nome dele, nos limites do contrato e das instruções recebidas.</li>
+      <li><strong>Controladora</strong>, quando trata dados dos próprios usuários das ferramentas (equipe da Nômade e pessoas autorizadas pelos clientes) e os registros de acesso e segurança.</li>
+    </ul>
 
     <h2>2. O que a ferramenta faz</h2>
     <p>A ccos-nomade é uma ferramenta de <strong>uso interno da equipe da Nômade</strong>. Ela lê, por meio da API do Google Ads, dados de desempenho das contas de anúncios dos clientes que contrataram a Nômade (campanhas, grupos de anúncios, anúncios, investimento, cliques, conversões e métricas relacionadas) e produz relatórios para esses mesmos clientes.</p>
     <p>A ferramenta <strong>não cria, não altera e não exclui</strong> campanhas, anúncios, orçamentos ou públicos. O acesso é somente de leitura.</p>
 
-    <h2>3. Quais dados tratamos</h2>
+    <h2>3. Quais dados tratamos e com que base legal</h2>
     <ul>
-      <li><strong>Dados de desempenho de anúncios</strong> das contas de clientes da Nômade, obtidos da API do Google Ads com a autorização do titular da conta.</li>
-      <li><strong>Dados da conta Google do operador da Nômade</strong> usada na autenticação (endereço de e-mail e identificador da conta), estritamente para autorizar o acesso à API.</li>
+      <li><strong>Dados de desempenho de anúncios</strong> das contas de clientes da Nômade, obtidos da API do Google Ads com a autorização do titular da conta. São métricas agregadas de campanhas; não identificam pessoas. Base legal: execução do contrato com o cliente (art. 7º, V).</li>
+      <li><strong>Dados da conta Google do operador da Nômade</strong> usada na autenticação (endereço de e-mail e identificador da conta), estritamente para autorizar o acesso à API. Base legal: execução do contrato e legítimo interesse na operação segura da ferramenta (art. 7º, V e IX).</li>
+      <li><strong>Registros de acesso e de execução</strong> (data, hora, usuário, rotina executada), para segurança e auditoria. Base legal: legítimo interesse (art. 7º, IX) e cumprimento de obrigação legal ou regulatória quando aplicável (art. 7º, II).</li>
     </ul>
-    <p>Não coletamos dados pessoais de consumidores finais por meio desta ferramenta. Métricas agregadas de anúncios não identificam pessoas.</p>
+    <p>Não coletamos dados pessoais de consumidores finais por meio da ferramenta interna. Na Aplicação, o tratamento de dados de leads segue a regra de minimização da seção 12.</p>
 
     <h2>4. Como usamos os dados</h2>
     <p>Os dados são usados exclusivamente para gerar relatórios de desempenho e análises para o cliente dono da conta de anúncios, e para apoiar recomendações de otimização apresentadas a esse cliente.</p>
-    <p>Não usamos os dados para publicidade própria, não os vendemos, não os cedemos a terceiros e não os usamos para treinar modelos de inteligência artificial de uso geral.</p>
+    <p>Não usamos os dados para publicidade própria, não os vendemos, não os cedemos a terceiros e não os usamos para treinar modelos de inteligência artificial de uso geral. Não tomamos decisões automatizadas que afetem pessoas: as recomendações são apresentadas ao cliente, que decide.</p>
 
     <h2>5. Onde os dados ficam e por quanto tempo</h2>
-    <p>Os dados obtidos são armazenados <strong>em equipamento da Nômade, em disco local</strong>, em pastas separadas por cliente. Cada cliente tem acesso apenas aos próprios dados; a Nômade acessa somente as contas para as quais foi contratada e autorizada. Os dados são mantidos pelo tempo necessário à prestação do serviço e às obrigações contratuais com o cliente, e eliminados ao fim da relação, salvo obrigação legal de guarda.</p>
+    <p>Os dados obtidos ficam <strong>em equipamento da Nômade e no Drive corporativo da empresa (Google Workspace)</strong>, em pastas separadas por cliente; na Aplicação, ficam em banco de dados <strong>Google BigQuery, na região de São Paulo</strong>, com um conjunto por cliente. O código das ferramentas fica em repositório separado, que <strong>nunca recebe dado de cliente</strong>. Cada cliente tem acesso apenas aos próprios dados; a Nômade acessa somente as contas para as quais foi contratada e autorizada.</p>
+    <p>Os dados são mantidos pelo tempo necessário à prestação do serviço e às obrigações contratuais com o cliente, e eliminados ao fim da relação, salvo obrigação legal de guarda. Registros de acesso são mantidos por até 12 meses.</p>
 
-    <h2>6. Compartilhamento</h2>
-    <p>Compartilhamos dados apenas com o <strong>próprio cliente titular da conta de anúncios</strong>, na forma de relatórios. Não há compartilhamento com outros clientes nem com terceiros, exceto quando exigido por lei.</p>
+    <h2>6. Compartilhamento e operadores</h2>
+    <p>Compartilhamos dados apenas com o <strong>próprio cliente titular da conta de anúncios</strong>, na forma de relatórios. Não há compartilhamento com outros clientes nem com terceiros, exceto quando exigido por lei ou por autoridade competente.</p>
+    <p>Para operar as ferramentas usamos fornecedores que tratam dados em nosso nome, sob contrato e sem uso próprio:</p>
+    <ul>
+      <li><strong>Google</strong> (Google Workspace, Google Cloud e BigQuery): armazenamento, banco de dados e serviços;</li>
+      <li><strong>Cloudflare</strong>: controle de acesso e hospedagem das páginas da Aplicação;</li>
+      <li><strong>Meta e Google Ads</strong>: fontes dos dados de anúncios, acessadas por API de leitura;</li>
+      <li><strong>Anthropic</strong>: quando o Assistente da Aplicação estiver ativo, processamento das perguntas feitas a ele, sem uso dos dados para treinamento, conforme os termos comerciais do fornecedor.</li>
+    </ul>
 
-    <h2>7. Uso da API do Google</h2>
+    <h2>7. Transferência internacional</h2>
+    <p>Alguns desses fornecedores podem tratar dados fora do Brasil. Quando isso ocorre, a transferência se apoia em cláusulas contratuais e garantias de proteção equivalentes às da LGPD (art. 33), e o banco de dados da Aplicação fica configurado na região de São Paulo.</p>
+
+    <h2>8. Uso da API do Google</h2>
     <p>O uso de informações recebidas das APIs do Google segue a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, inclusive os requisitos de <strong>Uso Limitado</strong>. A autorização concedida pode ser revogada a qualquer momento pelo titular da conta Google em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
 
-    <h2>8. Segurança</h2>
-    <p>Adotamos medidas técnicas e organizacionais para proteger os dados: acesso restrito à equipe da Nômade, credenciais guardadas fora de repositórios de código, controles que limitam a leitura às contas de clientes autorizadas, e verificação em duas etapas nas contas que sustentam a ferramenta.</p>
+    <h2>9. Segurança e incidentes</h2>
+    <p>Adotamos medidas técnicas e organizacionais para proteger os dados: acesso restrito à equipe da Nômade, credenciais guardadas fora de repositórios de código, controles que limitam a leitura às contas de clientes autorizadas, verificação em duas etapas nas contas que sustentam as ferramentas e verificação de segurança a cada integração nova.</p>
+    <p>Se ocorrer incidente de segurança que possa acarretar risco ou dano relevante aos titulares, comunicaremos a Autoridade Nacional de Proteção de Dados (ANPD), os clientes afetados e, quando cabível, os titulares, nos prazos e na forma previstos na regulamentação (art. 48).</p>
 
-    <h2>9. Seus direitos (LGPD)</h2>
-    <p>Nos termos da Lei nº 13.709/2018 (LGPD), titulares de dados podem solicitar confirmação de tratamento, acesso, correção, anonimização, eliminação e informações sobre compartilhamento. Pedidos podem ser enviados ao contato abaixo.</p>
+    <h2>10. Seus direitos (LGPD)</h2>
+    <p>Nos termos do art. 18 da LGPD, o titular de dados pode solicitar, a qualquer momento: confirmação da existência de tratamento; acesso aos dados; correção de dados incompletos, inexatos ou desatualizados; anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a lei; portabilidade a outro fornecedor, observados os segredos comercial e industrial; eliminação dos dados tratados com consentimento; informação sobre com quem os dados foram compartilhados; informação sobre a possibilidade de não fornecer consentimento e suas consequências; e revogação do consentimento.</p>
+    <p>Pedidos são atendidos pelo contato da seção 11, de forma simplificada de imediato ou por resposta completa em até <strong>15 dias</strong>. Quando a Nômade atua como operadora, encaminha o pedido ao cliente controlador e o apoia na resposta. O titular também pode peticionar à ANPD.</p>
 
-    <h2>10. Contato</h2>
-    <p>Agência Nômade — <a href="https://nomade.nu">nomade.nu</a><br>E-mail: <strong>contato@nomade.nu</strong></p>
+    <h2>11. Encarregado e contato</h2>
+    <p>Agência Nômade — <a href="https://nomade.nu">nomade.nu</a><br>E-mail para pedidos de titulares e assuntos de privacidade: <strong>contato@nomade.nu</strong><br>Encarregado pelo tratamento de dados pessoais (art. 41): <em>a designar pela Diretoria; nome e contato serão publicados nesta página</em>.</p>
 
-    <h2>11. Aplicação Eficiência MD (Nômade Intelligence)</h2>
+    <h2>12. Aplicação Eficiência MD (Nômade Intelligence)</h2>
     <p>A Nômade disponibiliza aos clientes contratantes um painel de desempenho, servido em endereço próprio da Nômade (previsto: <code>intelligence.nomade.nu</code>), no qual <strong>cada cliente vê apenas os próprios dados</strong> e a Nômade vê todos os clientes que atende.</p>
     <ul>
-      <li><strong>Login e sessão.</strong> O acesso exige identificação por e-mail previamente cadastrado pela Nômade, por meio de controle de acesso Zero Trust (Cloudflare Access). A Nômade não guarda senhas; sem login, nenhuma página é servida. A sessão usa apenas o cookie estritamente necessário à autenticação.</li>
-      <li><strong>Dados tratados.</strong> Métricas de anúncios e de tráfego do próprio cliente (Google Ads, Meta Ads, Google Analytics, Search Console e planilhas fornecidas pelo cliente), guardadas em banco de dados (Google BigQuery) com um conjunto por cliente e histórico mensal; o e-mail dos usuários autorizados; e registros de acesso (data, hora e usuário), mantidos para segurança e auditoria.</li>
+      <li><strong>Login e sessão.</strong> O acesso exige identificação por e-mail previamente cadastrado pela Nômade, por meio de controle de acesso Zero Trust (Cloudflare Access). A Nômade não guarda senhas; sem login, nenhuma página é servida.</li>
+      <li><strong>Cookies.</strong> A sessão usa apenas o cookie estritamente necessário à autenticação. Não usamos cookies de rastreamento, de análise de audiência nem de publicidade.</li>
+      <li><strong>Dados tratados.</strong> Métricas de anúncios e de tráfego do próprio cliente (Google Ads, Meta Ads, Google Analytics, Search Console e planilhas fornecidas pelo cliente), guardadas em banco de dados (Google BigQuery, região de São Paulo) com um conjunto por cliente e histórico mensal; o e-mail dos usuários autorizados; e registros de acesso (data, hora e usuário), mantidos para segurança e auditoria.</li>
+      <li><strong>Minimização de dado pessoal.</strong> Quando o cliente liga o CRM à Aplicação, nome, telefone e e-mail dos leads são <strong>descartados antes de gravar</strong>; o identificador do lead vira hash e o CEP é cortado em cinco dígitos. A base de compradores entra por faixa etária e grupo de profissão, nunca por idade e profissão exatas, para que nenhuma linha identifique uma pessoa. Um teste automático falha se um campo pessoal chegar ao banco.</li>
       <li><strong>Operadores.</strong> Cloudflare (controle de acesso e hospedagem das páginas), Google Cloud (banco de dados e serviços) e, quando o Assistente estiver ativo, Anthropic (processamento das perguntas feitas ao Assistente, sem uso dos dados para treinamento, conforme os termos comerciais do fornecedor).</li>
       <li><strong>Revisão, retenção e backup.</strong> Os acessos são revisados a cada 90 dias e ao encerramento do contrato; há cópia de segurança mensal em armazenamento da Nômade; os dados do cliente são eliminados ao fim da relação, salvo obrigação legal de guarda.</li>
       <li><strong>Sem cruzamento.</strong> Dados de um cliente nunca são combinados com os de outro nem usados para publicidade própria da Nômade.</li>
     </ul>
 
-    <h2>12. Alterações</h2>
-    <p>Esta política pode ser atualizada. A versão vigente estará sempre publicada nesta página, com a data da última atualização.</p>
+    <h2>13. Alterações</h2>
+    <p>Esta política pode ser atualizada. A versão vigente estará sempre publicada nesta página, com a data da última atualização; mudanças relevantes são comunicadas aos clientes contratantes.</p>
   </div>
   <footer>© Agência Nômade</footer>
 </main>
